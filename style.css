@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#app {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 5px;
+}
+
+.input-group button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+li input[type="text"] {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(8, 8, 8);
+  background-color: #fff;
+}
+
+.edited {
+  font-weight: bold;
+  background-color: rgb(231, 149, 149);
+}
+
+.colored {
+  color: crimson; 
+}
+
